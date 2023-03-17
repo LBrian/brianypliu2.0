@@ -1,22 +1,15 @@
-/* eslint-disable react/react-in-jsx-scope */
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
-
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+    <div className="py-20 px-4 sm:px-14 md:px-32 lg:px-48 xl:px-64 font-sans">
+      <div className="font-vt323 pb-4 text-3xl text-accent">Hi, my name is</div>
+      <div className="text-5xl xl:text-7xl font-extrabold pb-2 flex">
+        <div className="mr-4">Brian</div>
+        <div className="mr-4 hidden sm:inline">Yueh-Peng</div>
+        <div>Liu.</div>
       </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
+      <div className="text-3xl lg:text-4xl xl:text-5xl font-bold opacity-50 pb-10">
+        <div>I love Javascript & Web technologies.</div>
+      </div>
     </div>
   );
 }

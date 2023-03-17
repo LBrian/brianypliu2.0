@@ -1,0 +1,35 @@
+{
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#282a36",
+  "orientation": "portrait",
+  "short_name": "Brian Liu",
+  "name": "Brian Yueh-peng Liu",
+  "background_color": "#f8f8f2",
+  "categories": ["profile", "profolio", "frontend developer", "frontend engineer", "web developer"],
+  "description": "My full-stack engineer journey across three continents (four countries) ended up to be a front-end passionate developer now.",
+  "icons": [
+    {
+      "src": "/icons/manifest-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/manifest-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
